@@ -1236,7 +1236,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }  // Ender Configs
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 424.9 }  // Sprite Extruder
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1551,7 +1551,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -41.5, -7, 0 }  // MRiscoC BLTouch offset for support: https://www.thingiverse.com/thing:4605354 (z-offset = -1.80 mm)
+#define NOZZLE_TO_PROBE_OFFSET { -29, -41, 0 }  // Sprite Extruder BLTouch offset
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
